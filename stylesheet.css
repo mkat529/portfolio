@@ -1,0 +1,18 @@
+.container{
+    height: 100vh;
+    border: 1px solid;
+
+    background-color: black;
+}
+nav{
+    display: flex;
+    border-bottom: 1px solid #7A7A7A;
+    height: 10vh;
+    
+    color: white;
+}
+.nav-menu{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+}
