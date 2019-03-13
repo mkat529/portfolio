@@ -6,13 +6,19 @@
 }
 nav{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #7A7A7A;
     height: 5vh;
     text-transform: uppercase;
     color: white;
 }
+
+.menu{
+    display: flex;
+    justify-content: flex-start;
+}
+
 .nav-menu{
     display: flex;
     flex-direction: row; 
@@ -28,4 +34,14 @@ font-size: 20px;
 
 .web-name{
 font-size: 40px;
+}
+
+.more{
+    display: flex;
+    flex-direction: row;
+}
+
+.search{
+    border-radius: 180px;
+    background-color: white;
 }
