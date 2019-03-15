@@ -45,3 +45,19 @@ font-size: 40px;
     border-radius: 180px;
     background-color: white;
 }
+
+.face{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.slogan{
+    font-size: 80px;
+    background: -webkit-linear-gradient(30deg, rgba(199,74,80,1) 5%, rgba(251,246,193,1) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
