@@ -1,7 +1,12 @@
+body {
+    margin: 0px;
+    
+    font-family: 'Open Sans', sans-serif;
+}
+
 .container{
     height: 100vh;
     padding-top: 10px;
-
     background-color: black;
 }
 nav{
