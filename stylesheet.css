@@ -1,22 +1,26 @@
 body {
     margin: 0px;
-    
+    padding-top: 10px;
+
+    background-color: black;
+    color: white;
     font-family: 'Open Sans', sans-serif;
 }
 
-.container{
-    height: 100vh;
-    padding-top: 10px;
-    background-color: black;
-}
 nav{
     display: flex;
+    position: absolute;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #7A7A7A;
-    height: 5vh;
+    height: 40px;
     text-transform: uppercase;
-    color: white;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 1896px;
+    
+    
+    background-color: black;
 }
 
 .menu{
@@ -34,7 +38,7 @@ nav{
 }
 
 .menu-item{
-font-size: 20px;
+font-size: 15px;
 }
 
 .web-name{
@@ -44,10 +48,17 @@ font-size: 40px;
 .more{
     display: flex;
     flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    width: 174px;
+   
 }
 
 .search{
-    border-radius: 180px;
+    width: 39px;
+    height: 38px;
+    border-radius: 190px;
+
     background-color: white;
 }
 
@@ -55,14 +66,15 @@ font-size: 40px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: center;
-    height: 100vh;
+    align-items: center;   
+    height: 99vh;
+    padding-left: 85px;
     background-image: url("https://images.unsplash.com/photo-1522660176216-0577bd12b5e2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: right top;
 
-    color: white;
+    
 }
 
 .slogan{
@@ -72,3 +84,27 @@ font-size: 40px;
     -webkit-text-fill-color: transparent;
     
 }
+
+.video{
+    margin-top: 50px;
+}
+ 
+.features{
+    margin-top: 293px;
+} 
+
+.click{
+    padding: 9px;
+    border-radius: 100px;
+    background-color: RGB(80, 79, 79,0.3);  
+  }
+  
+  .selectors{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 170px;
+    margin-top: 200px;
+
+    font-size: 18px;
+  }
