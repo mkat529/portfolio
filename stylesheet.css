@@ -64,7 +64,7 @@ font-size: 40px;
 
 .face{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;   
     height: 99vh;
@@ -87,6 +87,7 @@ font-size: 40px;
 
 .features{
     margin-top: 293px;
+    align-self: flex-start;
 } 
 
 .video{
@@ -117,26 +118,43 @@ font-size: 40px;
     justify-content: space-between;
     align-items: center;
     width: 170px;
-    margin-top: 200px;
+    
+    
 
     font-size: 18px;
   }
 
-  .logo{
+  .footer{
+    display: flex;
+    justify-content: space-between;
+    width: 92.7vw;
     align-self: flex-end;
     margin-bottom: 55px;
     margin-right: 55px;
+    margin-left: 55px;
   }
 
   /*Moblie*/
 
   @media (max-width: 600px) {
 
-  
+nav{
+    width: 95.9%;
+}
 
+.menu-item{
+    display: none;
+}
 
+.face{
+    height: 98.9vh;
+    background-size: 100% 100%;
+    background-image: url("https://images.unsplash.com/photo-1545304731-b6e8b5f2975e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80")
+}
 
-
+.footer{
+    width: 86vw;
+}
 
 
   }
