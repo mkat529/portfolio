@@ -50,7 +50,7 @@ font-size: 40px;
     flex-direction: row;
     justify-content:space-between;
     align-items: center;
-    width: 174px;
+    width: 9vw;
    
 }
 
@@ -150,6 +150,15 @@ nav{
     height: 98.9vh;
     background-size: 100% 100%;
     background-image: url("https://images.unsplash.com/photo-1545304731-b6e8b5f2975e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80")
+}
+
+.features{
+    margin-top: 434px;
+    align-self: flex-end;
+}
+
+.slogan{
+    font-size: 66px;
 }
 
 .footer{
