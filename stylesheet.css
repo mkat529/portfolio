@@ -15,9 +15,7 @@ nav{
     border-bottom: 1px solid #7A7A7A;
     height: 40px;
     text-transform: uppercase;
-    padding-left: 12px;
-    padding-right: 12px;
-    width: 98.7%;
+    width: 100vw;
     
     
     background-color: black;
@@ -138,9 +136,7 @@ font-size: 40px;
 
   @media (max-width: 600px) {
 
-nav{
-    width: 95.9%;
-}
+
 
 .menu-item{
     display: none;
@@ -153,12 +149,12 @@ nav{
 }
 
 .features{
-    margin-top: 434px;
+    margin-top: 453px;
     align-self: flex-end;
 }
 
 .slogan{
-    font-size: 66px;
+    font-size: 52px;
 }
 
 .footer{
