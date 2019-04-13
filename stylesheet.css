@@ -136,21 +136,32 @@ font-size: 40px;
 
   @media (max-width: 600px) {
 
+body{
+    padding-top: 0px;
+}    
 
+nav{
+    width: 100vw;
+}
+
+.more{
+    width: none;
+}
 
 .menu-item{
     display: none;
 }
 
 .face{
-    height: 98.9vh;
-    background-size: 100% 100%;
+    justify-content: flex-end;
+    padding-left: 16px;
+    height: 99.9vh;
+    background-size: cover;
     background-image: url("https://images.unsplash.com/photo-1545304731-b6e8b5f2975e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80")
 }
 
 .features{
-    margin-top: 453px;
-    align-self: flex-end;
+    margin-top: 50px;
 }
 
 .slogan{
@@ -159,6 +170,8 @@ font-size: 40px;
 
 .footer{
     width: 86vw;
+    margin-bottom: 16px;
+    margin-top: 55px;
 }
 
 
